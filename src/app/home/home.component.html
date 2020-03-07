@@ -1,0 +1,86 @@
+<section>
+  <app-sales class="app-sales"></app-sales>
+</section>
+<section>
+  <figure>
+    <img [src]="addImage" alt="add.Image " />
+  </figure>
+
+  <section>
+    <div class="container col-md-3 imgLef">
+      <figure>
+        <img [src]="addImage1" alt="add.Image1" />
+      </figure>
+      <figure>
+        <img [src]="addImage2" alt="add.Image2" />
+      </figure>
+      <figure>
+        <img [src]="addImage3" alt="add.Image3" />
+      </figure>
+    </div>
+    <div class="middle">
+      <div class="container col-md-3 mid ">
+        <figure>
+          <img [src]="addImage4" alt="add.Image1" />
+        </figure>
+
+        <figure class="hang">
+          <img [src]="addImage6" alt="add.Image2" />
+        </figure>
+
+        <figure class="miss">
+          <img [src]="addImage8" alt="add.Image3" />
+        </figure>
+      </div>
+      <div class="container col-md-3 mid2 ">
+        <figure>
+          <img [src]="addImage5" alt="add.Image1" />
+        </figure>
+        <figure class="hang">
+          <img [src]="addImage7" alt="add.Image2" />
+        </figure>
+        <figure class="miss">
+          <img [src]="addImage9" alt="add.Image3" />
+        </figure>
+      </div>
+    </div>
+    <div class="container col-md-3 rig ">
+      <figure>
+        <img [src]="addImage10" alt="add.Image1" />
+      </figure>
+      <figure>
+        <img [src]="addImage11" alt="add.Image2" />
+      </figure>
+      <figure>
+        <img [src]="addImage12" alt="add.Image3" />
+      </figure>
+    </div>
+  </section>
+</section>
+
+<!-- slider -->
+
+<section class="slider">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li
+        data-target="#carouselExampleCaptions"
+        data-slide-to="0"
+        class="active"
+      ></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img [src]="SImg1" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img [src]="SImg2" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img [src]="SImg3" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+  </div>
+</section>

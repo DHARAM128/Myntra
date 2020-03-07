@@ -1,0 +1,42 @@
+img {
+  width: 100%;
+  height: 240px;
+}
+.app-sales {
+  background-image: linear-gradient(to right, #f9f9ff, #dee8ff);
+}
+.imgLef {
+  display: inline-block;
+}
+.mid {
+  margin-top: -773px;
+  margin-right: 680px;
+}
+.mid2 {
+  margin-top: -768px;
+  margin-left: 639px;
+}
+.rig {
+  float: right;
+  margin-top: -770px;
+}
+.hang {
+  position: relative;
+  top: -16px;
+}
+
+.miss {
+  position: relative;
+  top: -32px;
+}
+
+figure img {
+  position: relative;
+  top: 82px;
+}
+.slider {
+  position: relative;
+  top: 102px;
+  width: 90%;
+  left: 67px;
+}
